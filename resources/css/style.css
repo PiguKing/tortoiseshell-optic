@@ -1,3 +1,8 @@
+*, html {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   font-size: 18px;
   line-height: 1.4;
@@ -15,24 +20,44 @@ body {
 
 .main-banner-container {
   width: 960px;
-  display: flex;
-  justify-content: center;
 }
 
 .header {
+  width: 960px;
   background-color: cadetblue;
   color: white;
   display: flex;
-  justify-content: center;
   align-items: center;
+  margin-top: 1rem;
 }
 
-nav ul {
+.company {
+  width: 50%;
   display: flex;
-  justify-content: center;
-  list-style: none;
+  align-items: center;
+  padding-left: 2rem;
 }
 
+.company-logo img {
+  height: 1.5rem;
+}
+
+#company-name {
+  padding-left: 1rem;
+}
+
+.navigation {
+  width: 50%;
+  padding: 1rem 0;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  text-align: right;
+}
+
+.navigation p {
+  padding: 1rem 2rem 1rem 0;
+}
 
 /* FIX
 1. Main Banner CSS need to be fixed
