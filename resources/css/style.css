@@ -173,6 +173,28 @@ footer {
   margin: 4rem 1rem 4rem 4rem;
 }
 
-/* FIX
-1. Main Banner CSS need to be fixed
-*/
+@media only screen and (max-width: 975px) {
+  .main-banner {
+    height: 22rem;
+  }
+
+  .main-banner-container {
+    width: 100%;
+  }
+
+  .header {
+    width: 100%;
+    margin: 0;
+  }
+
+  .catch-phrase {
+    position: static;
+    margin-right: 2rem;
+    margin-top: 5rem;
+  }
+
+   .catch-phrase p{
+     padding: 0.75rem 4rem;
+     font-size: 1.33rem;
+   }
+}
