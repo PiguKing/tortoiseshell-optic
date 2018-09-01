@@ -77,6 +77,46 @@ body {
   line-height: 1.2;
 }
 
+/* Services */
+.services {
+  display: flex;
+  justify-content: center;
+  margin: 3rem 0;
+}
+
+.services-container {
+  width: 960px;
+  display: flex;
+  justify-content: center;
+}
+
+
+.service {
+  height: 8rem;
+  width: 5rem;
+  margin: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  text-align: center;
+}
+
+#exam-image img {
+  width: 3.5rem;
+  margin-bottom: 1rem;
+}
+
+#customize-image img {
+  width: 5rem;
+  margin-bottom: 2.7rem;
+}
+
+#delivery-image img {
+  width: 5rem;
+  margin-bottom: 2.2rem;
+}
+
 
 
 
